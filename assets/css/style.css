@@ -47,7 +47,7 @@ nav {
     color: #777777;
 }
 
-.content {
+.main {
     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
     font-size: 1.2rem;
     color: #777777;
@@ -60,6 +60,7 @@ nav {
 
 h2 {
     color: #4aaaa5;
+    margin-top: -5px;
 }
 
 hr {
@@ -73,14 +74,25 @@ img {
     margin-right: 30px;
 }
 
+input,
+textarea {
+    width: 100%;
+}
 
-/* need a sticky footer */
+button {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 15px;
+}
 
 footer {
     text-align: center;
-    width: 100%;
-    height: 70px;
     background-color: #666666;
     border-top: 5px solid #4aaaa5;
     color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
 }
