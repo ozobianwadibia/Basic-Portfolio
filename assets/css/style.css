@@ -76,8 +76,7 @@
     }
     
     .img-portfolio {
-        margin-right: 40px;
-        margin-bottom: 50px;
+        margin: 0 40px 50px 0;
         display: inline-block;
     }
     
