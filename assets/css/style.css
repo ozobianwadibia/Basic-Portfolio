@@ -3,6 +3,11 @@ html {
   box-sizing: border-box;
 }
 
+.main-body {
+  max-width: 1000px;
+  margin: auto;
+}
+
 *,
 *:before,
 *:after {
@@ -12,6 +17,7 @@ html {
 .font-B {
   font-family: "Bungee", cursive;
 }
+
 /*******************************/
 
 body {
@@ -24,9 +30,11 @@ body {
 
 /****** Heading *****************/
 .heading {
-  height: 123px;
+  height: 125px;
+  margin: auto;
   background-color: #00bfff;
   color: white;
+  border-bottom: 4px solid #1e90ff;
 }
 
 .heading-main {
@@ -48,38 +56,37 @@ body {
 
 /*******************************/
 
-/****** Image *********/
-.main-picture {
-  height: 400px;
-  width: 100%;
-  /* background-position: center; */
-  /* background-size: auto; */
-  /* background-repeat: no-repeat; */
-  background-size: cover;
-  overflow: hidden;
-}
-
-/*******************************/
-
 /****** Astro Section *********/
 .astro-section {
   background-color: whitesmoke;
   background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/bright_squares.png);
-  background-position: top center;
+  background-position: center;
   background-attachment: fixed;
-  width: auto;
-  margin: auto;
   overflow: hidden;
+  padding: 10px;
 }
 
 /*******************************/
 /***** Footer *************/
 footer {
-  height: 70px;
+  height: auto;
   width: auto;
   background-color: black;
   display: flex;
   align-content: center;
+  padding: 10px;
 }
 
 /*******************************/
+
+/******* Media Queries **********/
+@media only screen and (max-width: 768px) {
+  .media-768 {
+    text-align: center;
+  }
+  .media-768-ullist {
+    text-align: left;
+    list-style-type: disc;
+    list-style-position: inside;
+  }
+}
