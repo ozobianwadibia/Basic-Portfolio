@@ -1,0 +1,85 @@
+/***** Global Styles *******/
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.font-B {
+  font-family: "Bungee", cursive;
+}
+/*******************************/
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/illusions.png);
+  background-color: black;
+  margin: 20px;
+  line-height: 26px;
+}
+
+/****** Heading *****************/
+.heading {
+  height: 123px;
+  background-color: #00bfff;
+  color: white;
+}
+
+.heading-main {
+  display: flex;
+  align-content: flex-start;
+}
+
+.heading-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+.heading-links:hover {
+  text-decoration: none;
+}
+
+/*******************************/
+
+/****** Image *********/
+.main-picture {
+  height: 400px;
+  width: 100%;
+  /* background-position: center; */
+  /* background-size: auto; */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  overflow: hidden;
+}
+
+/*******************************/
+
+/****** Astro Section *********/
+.astro-section {
+  background-color: whitesmoke;
+  background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/187/bright_squares.png);
+  background-position: top center;
+  background-attachment: fixed;
+  width: auto;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*******************************/
+/***** Footer *************/
+footer {
+  height: 70px;
+  width: auto;
+  background-color: black;
+  display: flex;
+  align-content: center;
+}
+
+/*******************************/
